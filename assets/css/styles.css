@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    /* border: rgb(255, 0, 191) solid 2px; */
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    padding: 15%;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    background-size: cover;
+ 
+}
+
+header {
+    margin-bottom: 20%;
+}
+
+.header-title {
+    font-size: 54px;
+    font-style: unset;
+    border-bottom: whitesmoke 2px;
+    color: yellow;
+    
+}
+
+.how-to-btn {
+    padding-top: 5%;
+}
+
+/* Modal styling begin */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+  
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.modal-list {
+    text-align: justify;
+    font-size: larger;
+}
+
+.w3-card {
+    font-size: 24px;
+    color: #fefefe;
+    width: 200px;
+}
+
+.liquor-btn {
+    min-width: 60px;
+    min-height: 40px;
+    margin: 20% 18% 10% 20%;
+    display: inline-block;
+    color: white;
+    
+}
+
+.flex {
+    min-width: 650px;
+    min-height: 45px;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: x-large;
+    border-bottom: 3px solid rgb(245, 188, 0);
+    color: white;
+    font-style: oblique;
+    
+    text-align: center;
+    padding-left: 25px;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}

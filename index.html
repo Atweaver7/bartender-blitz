@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Bartender Blitz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body id="page-content" class="w3-mobile">
+    <div id="prompt">
+        <header>
+            <div>
+                <h1 class="header-title w3-panel w3-border-top w3-border-bottom w3-animate-bottom ">Bartender Blitz</h1>
+            </div>
+        </header>
+        <div class="container w3-row">
+            <div class="" class="half">
+                <div class="game-on-btn">
+                    <h2></h2>
+                    <button id="start" class="game-on-btn w3-button w3-indigo w3-round-xxlarge w3-xxlarge" type="click">Get my Drink!</button>
+                </div>
+                <div class="how-to-btn">
+                    <h2></h2>
+                    <button id="how-to-btn" class="practice-button w3-animate-zoom w3-button w3-white w3-border w3-large hide" type="submit"></button>
+                </div>
+                <!-- Modal Start -->
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times</span>
+                        <h1 class="w3-modal-content w3-card-4">Welcome to Bartender Blitz!</h1>
+                        <h2>Please read below on how to play:</h2>
+                        <ol class="w3-modal-content modal-list">
+                            <li>Click Start</li>
+                            <li>Start does nothing</li>
+                            <li>Be sad</li>
+                            <li>Come back later</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Modal End -->
+            </div>
+        </div>
+    </div>
+<script src="./assets/js/script.js"></script>
+</body>
